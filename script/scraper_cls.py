@@ -12,7 +12,7 @@ from selenium import webdriver
 
 class Scraper:
     """Provides methods for web scraping.
-    """    
+    """
     __drivers = []
     # Change this value acc. to your needs
     max_number_of_tabs_in_a_browser_window = 4
@@ -154,7 +154,7 @@ class Scraper:
 
         Returns:
             (str): trade history  
-        """        
+        """
         if exc.trade['clickXpath']:
             cls.click(exc.driver, exc.trade['clickXpath'], exc.tab_number)
 
@@ -200,4 +200,3 @@ class Scraper:
             except Exception as Er:
                 print(Er)
                 sleep(1)
-                True
