@@ -30,7 +30,7 @@ and run the application:
 `python script/run.py`
 
 ##  CUSTOMIZATION
-Script uses a JSON file to learn target data for web scraping. Xpath of price, spread and trade history data are declared for each exchange in the JSON file as below. You can update the JSON file by adding new exchanges or overwriting the existing ones. Script will handle opening necessary number of the browser windows&tabs and collecting&saving the data.      
+Script uses a JSON file to learn target data for web scraping. Xpath of price, spread and trade history data are declared for each exchange in the script/exchanges.json file as below. You can update the JSON file by adding new exchanges or overwriting the existing ones. Script will handle opening necessary number of the browser windows&tabs and collecting&saving the data.      
 
 ```
 "FTX": {  
@@ -50,5 +50,4 @@ Script uses a JSON file to learn target data for web scraping. Xpath of price, s
             "clickXpath": "",
             "xpath": "/html/body/div/div/div[2]/div/main/div[3]/div[5]/div/table/tbody",
             "order": ["Price","Amount","Time"]}}
-            ```
    
