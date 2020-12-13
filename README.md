@@ -2,7 +2,7 @@
 
 This python script uses selenium browser to collect Price, Bid-Ask spread and Trade history data from online trade platforms of several crypto-exchanges. Data is being collected continually and stored in mySQL database.
 
-[![CodeFactor](https://www.codefactor.io/repository/github/serhatci/web-scraping-from-cryptoexchanges/badge)]
+![CodeFactor](https://www.codefactor.io/repository/github/serhatci/web-scraping-from-cryptoexchanges/badge)
 
 ## DEMONSTRATION OF THE RUNNING SCRIPT
 ![Running Script Demo](web-scraping.gif)
