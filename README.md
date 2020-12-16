@@ -1,13 +1,13 @@
-# WEB SCRAPING FROM CRYPTO-EXCHANGES WITH PYTHON&SELENIUM
+# Web Scraping from Crypto-exchange Websites with Python & Selenium
 
 This python script uses selenium browser to collect Price, Bid-Ask spread and Trade history data from online trade platforms of several crypto-exchanges. Data is being collected continually and stored in mySQL database.
 
 ![CodeFactor](https://www.codefactor.io/repository/github/serhatci/web-scraping-from-cryptoexchanges/badge)
 
-## DEMONSTRATION OF THE RUNNING SCRIPT
+## Demonstration of the Running Script
 ![Running Script Demo](web-scraping.gif)
 
-##  INSTALLATION
+##  Installation
 You can clone below repository:  
 `git clone https://github.com/serhatci/web-scraping-from-cryptoexchanges.git`
 
@@ -31,7 +31,7 @@ You have to provide your own SQL database connection information in the run.py f
 and run the application:  
 `python script/run.py`
 
-##  CUSTOMIZATION
+##  Customization
 Script uses a JSON file to learn target data for web scraping. Xpath of price, spread and trade history data are declared for each exchange in the script/exchanges.json file as below. You can update the JSON file by adding new exchanges or overwriting the existing ones. Script will handle opening necessary number of the browser windows&tabs and collecting&saving the data.      
 
 ```
