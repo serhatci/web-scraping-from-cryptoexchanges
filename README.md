@@ -20,11 +20,11 @@ Be sure following chrome driver file is in the script folder:
 You have to provide your own SQL database connection information in the run.py file:
 ```
     #### BELOW INFORMATION SHOULD BE SUBMITTED ###########
-    pair = 'usdt_usd'
-    db_name = 'tether'
-    host = your_host
-    user = your_username
-    password = your_passowrds
+    pair = 'your_downloaded_trade_pair' (For example: btc_usd)
+    db_name = 'your_database_name' (For example: Bitcoin)
+    host = 'your_host'
+    user = 'your_username'
+    password = 'your_passwords'
     ######################################################
 ```
 
